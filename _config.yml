@@ -97,7 +97,20 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: polarbear
+theme: artemis
+theme_config:
+  logo:
+  google_analytics: UA-12345678-9
+  copyright:
+    since: 2016
+    name: John Doe
+    url: https://www.example.org/john-doe
+  menu:
+    Home: /
+    About: /about
+    GitHub: https://github.com/Dreyer
+    RSS: /atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,4 +118,3 @@ deploy:
   type: git
   repository: https://github.com/startFromHere/startFromHere.github.io
   branch: main
-  
